@@ -14,15 +14,17 @@
       <form>
         <label for="places">Choose a restaurant</label>
         <select id="places" name="places">
+          <option value="default">Please select</option>
           <option value="CJ Eatery">CJ Eatery</option>
           <option value="Shiku sushi">Shiku sushi</option>
-          <option value="Grill of Ipanema">Grill of Ipanema</option>
+          <option value="Grill from Ipanema">Grill from Ipanema</option>
           <option value="La Isla">La Isla</option>
         </select>
       </form>
       <div id="map"></div>
     </main>
-    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNT3QFuwAljAQB2HbfIEAmGfDpJAy7vzg&callback=initMap"
     async defer></script>
     <script type="text/javascript" src="js/index.js"></script>
