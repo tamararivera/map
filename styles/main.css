@@ -1,6 +1,16 @@
-#map {
-	height: 100%;
-}
 html, body, main {
     height: 100%;
+}
+
+main {
+	width: 80%;
+	padding-left: 10%;
+}
+
+form {
+	padding-bottom: 1rem;
+}
+
+#map {
+	height: 100%;
 }
